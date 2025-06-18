@@ -1,1 +1,20 @@
 /* Add CSS styles for your web site here and use them in index.html. */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Element selector */
+body {
+  background-color: #ede1cf;
+}
+
+/* Class selector */
+.darkblue {
+  color: #107980;
+}
+
+/* Id selector */
+#links {
+  font-style: italic;
+}
