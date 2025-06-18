@@ -5,33 +5,57 @@
         <title>Portfolio</title>
         <link rel="stylesheet" href="styles.css" />
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono|Muli">
         <script type="text/javascript" src="script.js"></script>
         <style>
             /* Style rules (internal stylesheet) go here. */
-            /* adjusting the bullet point colors */
-            h5 {
-                color: #543410
-            }
-
+            /* adjusting the paragraph alignments */
             p {
                 text-align: center;
             }
+
+            html, body, div{
+                /* 
+                another possible font: https://fonts.google.com/selection/embed
+                good font resources: https://www.w3schools.com/css/css_font_pairings.asp
+                */
+                font-family: Muli, sans-serif;
+            }
+            
         </style>
     </head>
 
     <body>
         <!-- Add HTML markup elements for your web site below -->
+        <!-- Elfsight Website Translator | Untitled Website Translator -->
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-3f9da020-ac01-4aca-8a1a-a47baba6b038" data-elfsight-app-lazy></div>
+        
+        <br>
+        <button type="button" id = header_buttons >Experience</button>
+        <button type="button" id = header_buttons >Projects</button>
+        <button type="button" id = header_buttons >Awards</button>
+        <button type="button" id = header_buttons >Contact</button>
         <h1 class = darkblue>Welcome to My Portfolio!</h1>
-        <p id = "links"> [Links] </p>
+        <a id = "links" href="https://www.linkedin.com/in/amrit-kaur-tech/">
+            <article>
+                <p>Linkedin | [Link] | [Link]</p>
+            </article>
+            
+        </a>
         <br> 
         <h3 style = color:#76a1a7>My name is Amrit Kaur.</h3>
-        <h5>
+        <p>
             <ul>
                 <li>Second-Year attending University of Virginia</li>
                 <li>Majoring in Computer Science, Minoring in Engineering Business</li>
                 <li>Interested in Data Analytics, AI/ML, and Cybersecurity</li>
             </ul>
-        </h5>
+        </p>
+        <!-- Can adjust the width and height to width = 50% height = 30% -->
+        <img alt="An image of the Rotunda, an important landmark at UVA." src="\VSCode Edu\img\UVA.jpg"/>
+        
+        
         <div></div>
     </body>
 </html>

@@ -17,4 +17,10 @@ body {
 /* Id selector */
 #links {
   font-style: italic;
+  text-align: center
+}
+#header_buttons {
+  background-color: #D9C5BC;
+  border-color: gainsboro;
+  border-width: 0.5;
 }
